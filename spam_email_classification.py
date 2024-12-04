@@ -27,7 +27,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 # Load the dataset
-data_path = '/content/spam.csv'
+data_path = 'spam.csv'
 df = pd.read_csv(data_path, encoding='latin-1')
 df.head()
 
